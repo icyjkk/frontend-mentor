@@ -7,40 +7,19 @@
     <title>Navegación</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="m-0 p-0 bg-gray-200 text-white flex justify-center items-center h-screen font-sans">
-    <div
-        class="flex flex-col md:flex-row md:justify-center justify-start items-center bg-black rounded-[20px] p-3 shadow-xl transition-transform transform hover:scale-105">
-        <!-- Apps -->
-        <div
-            class="flex items-center gap-2 cursor-pointer px-5 py-2 rounded-[20px] transition-all hover:bg-gray-200 hover:text-black">
-            <i class="fas fa-window-maximize text-lg"></i>
-            <span class="text-base font-bold">Apps</span>
-        </div>
-
-        <!-- Components Dropdown -->
-        <div class="relative group">
-            <div
-                class="flex items-center gap-2 cursor-pointer px-5 py-2 rounded-[20px] transition-all hover:bg-gray-200 hover:text-black">
-                <i class="fas fa-code text-lg"></i>
-                <span class="text-base font-bold">Components</span>
-            </div>
-
-            <!-- Dropdown Menu -->
-            <div
-                class="absolute left-0 mt-5 bg-black text-white rounded-[20px] shadow-lg opacity-100 transform scale-y-0 origin-top transition-all duration-300 group-hover:opacity-100 group-hover:scale-y-100">
-                <ul class="flex flex-col gap-2 p-4 text-base font-bold">
-                    <li class="cursor-pointer hover:bg-gray-700 px-4 py-2 rounded-[10px]">
-                        <a href="./qr-code-component/index.html" class="block w-full h-full">Qr Code</a>
-                    </li>
-                    <li class="cursor-pointer hover:bg-gray-700 px-4 py-2 rounded-[10px]">
-                        <a href="./blog-preview-card/index.html" class="block w-full h-full">Blog preview card</a>
-                    </li>
-                </ul>
-            </div>
+<body class="flex justify-center items-center flex-col h-screen bg-[hsl(212,45%,89%)] font-[Outfit]">
+    <div>
+        <h1 class="text-xl font-semibold text-black">newbie</h1>
+        <div class="mt-4 flex flex-col gap-3 italic">
+            <p class="text-xl text-gray-700">
+                <a href="https://frontend-mentor-six-swart.vercel.app/qr-code-component/index.html" class="text-blue-600 hover:underline">QR code component using HTML and CSS</a>
+            </p>
+            <p class="text-xl text-gray-700">
+                <a href="https://frontend-mentor-six-swart.vercel.app/blog-preview-card/index.html" class="text-blue-600 hover:underline">Blog preview card using HTML and CSS</a>
+            </p>
         </div>
     </div>
 </body>
