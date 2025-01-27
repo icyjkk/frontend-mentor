@@ -2,9 +2,10 @@
 
 This is a solution to the [Blog preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
-Site URL: https://frontend-mentor-six-swart.vercel.app/qr-code-component/index.html
+Site URL: https://frontend-mentor-six-swart.vercel.app/blog-preview-card/index.html
 
 ### Screenshot
-![image](https://github.com/user-attachments/assets/19e4ad4e-a845-4003-84e3-fb1759eee1f3)
-![image](https://github.com/user-attachments/assets/9bea8115-4b68-46a0-8610-4768e312e73a)
+![image](https://github.com/user-attachments/assets/6c802ee3-6d82-48b5-9b9c-162c325f5324)
+![image](https://github.com/user-attachments/assets/c8f4f489-a8dd-423d-a88e-dd40752ff1af)
+
 
