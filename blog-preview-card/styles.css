@@ -22,7 +22,7 @@ body {
     filter: drop-shadow(8px 8px 0px rgba(0, 0, 0, 1));
 }
 
-img {
+.card-main-img {
     border-radius: 13px;
     width: 100%;
     aspect-ratio: 4.15 / 3;
@@ -61,8 +61,6 @@ img {
     justify-content: flex-start;
     align-items: center;
     gap: 14px; 
-    margin-top: 25px;
-    margin-bottom: -20px;
 }
 
 .card-author img {
@@ -73,5 +71,4 @@ img {
 .card-author span{
     font-size: 15px; 
     font-weight: 800; 
-    margin-top: -25px; 
 }
