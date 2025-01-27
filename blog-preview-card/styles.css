@@ -53,16 +53,16 @@ img {
 
 .card-description {
     color: hsl(0, 0%, 42%);
-    font-size: 15px; /* Haz el tamaño de fuente más pequeño */
-    font-weight: 500; /* Ajusta el peso de la fuente a normal */
-    line-height: 1.5; /* Agrega un espacio entre líneas adecuado */
+    font-size: 15px; 
+    font-weight: 500; 
+    line-height: 1.5; 
 }
 
 .card-author {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 14px; /* Espaciado uniforme entre la imagen y el texto */
+    gap: 14px; 
     margin-top: 25px;
     margin-bottom: -20px;
 }
@@ -73,7 +73,7 @@ img {
 }
 
 .card-author span{
-    font-size: 15px; /* Tamaño del texto */
-    font-weight: 800; /* Peso del texto */
-    margin-top: -25px; /* Elimina márgenes predeterminados del texto */  
+    font-size: 15px; 
+    font-weight: 800; 
+    margin-top: -25px; 
 }
