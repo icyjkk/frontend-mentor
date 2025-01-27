@@ -18,7 +18,7 @@ body {
     padding: 19px;
     border-radius: 20px;
     max-width: 300px;
-    border: 1px solid hsl(0, 0%, 0%); /* Borde similar al de la imagen */
+    border: 1px solid hsl(0, 0%, 0%); 
     filter: drop-shadow(8px 8px 0px rgba(0, 0, 0, 1));
 }
 
@@ -26,9 +26,7 @@ img {
     border-radius: 13px;
     width: 100%;
     aspect-ratio: 4.15 / 3;
-    /* Proporción más rectangular y ajustada */
     object-fit: cover;
-    /* Ajusta la imagen al contenedor sin distorsión */
     margin-bottom: 27px;
 }
 
