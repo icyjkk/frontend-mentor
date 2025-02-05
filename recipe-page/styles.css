@@ -79,6 +79,11 @@ section li{
     line-height: 1.5; 
 }
 
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 1px solid hsl(0, 0%, 80%); /* Define un borde más claro */
+}
+
 .recipe-instructions ol{
     font-family: 'Outfit', sans-serif;
     font-weight: 450;
